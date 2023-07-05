@@ -8604,12 +8604,11 @@ const Dropdown = ({
   display:flex;
   flex-direction:column;
       width:100%;
-      height:500px;
+      height:fit-content;
       padding:${question == "3" ? "100px" : "10px"};
       align-items:center;
       justify-content:center;
-      position:relative;
-      left:${question == "3" ? "0" : "130px"};
+     
   
   `;
   const DropDownInner = styled_components__WEBPACK_IMPORTED_MODULE_1__.styled.div`
@@ -8676,12 +8675,15 @@ const Dropdown = ({
   const Outer = styled_components__WEBPACK_IMPORTED_MODULE_1__.styled.div`
   background:#E1E8F8;
   width:100%;
-  display:flex;
+  display:${question == "3" ? 'flex' : 'grid'};
+  
+  padding:100px;
   align-items:center;
   justify-content:space-evenly;
   margin-top:30px;
-  @media (1000px){
-    flex-direction:column;
+  grid-template-columns:1fr 1fr;
+  @media (max-width: 780px){
+    grid-template-columns: 1fr;
   }
   `;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Outer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
