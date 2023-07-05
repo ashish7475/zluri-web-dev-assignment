@@ -86,15 +86,15 @@ export default class Navigation extends Component {
                             <NavListWrapperMobile mobile={true}>
                                 <ul>
                                     <NavItemMobile>
-                                        <a href="">Email</a>
+                                    <a href="mailto:ashish729912@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
                                     </NavItemMobile>
                                     <NavItemMobile>
-                                        <a href="">Contact me</a>
+                                    <a href="tel:+917889644025">Contact me</a>
                                     </NavItemMobile>
                                     <ActionsContainer>
-                                        <a href="https://get.zluri.com/request-demo">
-                                            <button>Resume</button>
-                                        </a>
+                                    <a href="https://drive.google.com/file/d/1k41h0ioU8VLZ0LJg3uNstElKCWY2wpOD/view?usp=sharing" target="__blank">
+                                        <button>Resume</button>
+                                    </a>
                                     </ActionsContainer>
                                 </ul>
                             </NavListWrapperMobile>
