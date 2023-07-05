@@ -1,0 +1,13 @@
+{
+  "name": "Web development assignment for Zluri",
+  "email": "harshavardhan.y@zluri.com",
+  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "image": {
+    "src": "../../images/favicon.png",
+    "alt": "Gatsby Logo"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

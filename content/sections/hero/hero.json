@@ -1,0 +1,18 @@
+{
+  "intro": "Hey",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "Thanks for applying to Zluri",
+  "subtitle": {
+    "prefix": "Lets get started with ",
+    "highlight": "the assignment",
+    "suffix": "."
+  },
+  "description": "Follow the instructions below and provide solutions."  
+}
